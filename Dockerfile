@@ -1,6 +1,5 @@
 FROM node:9
 WORKDIR /app
-RUN apk add --no-cache git
 ENV AGENT_CONFIG_PATH /config/config.js
 ENV DOCKER true
 ADD package.json /app
